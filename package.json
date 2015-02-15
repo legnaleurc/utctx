@@ -5,5 +5,39 @@
   "description": "a basic add-on",
   "author": "",
   "license": "MPL 2.0",
-  "version": "0.1"
+  "version": "0.1",
+  "preferences-branch": "utctx",
+  "preferences": [
+    {
+      "type": "integer",
+      "name": "version",
+      "title": "version",
+      "value": 0,
+      "hidden": true
+    },
+    {
+      "type": "string",
+      "name": "host",
+      "title": "host",
+      "value": "192.168.0.100"
+    },
+    {
+      "type": "integer",
+      "name": "port",
+      "title": "port",
+      "value": 19454
+    },
+    {
+      "type": "string",
+      "name": "username",
+      "title": "username",
+      "value": "admin"
+    },
+    {
+      "type": "string",
+      "name": "password",
+      "title": "password",
+      "value": "admin"
+    }
+  ]
 }
